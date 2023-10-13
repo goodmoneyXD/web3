@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.header1{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 3;
+    position: relative;
+}
+header a:hover{
+    color: red;
+}
+.fa-chevron-down{
+    color: white;
+    position: relative;
+    top: 1px;
+    right: -5px;}
+    nav{
+        width: 100%;
+        height: 80px;
+        background-color: white;
+       
+    }
+    nav img{
+        height: 100px;
+        float: left;
+        position: absolute;
+        margin-left: 1px;
+    }
+    nav div ul{
+        float: left;
+        display: flex;
+        line-height: 6;
+        position: relative;
+        margin-left: 180px;
+    }
+    nav div ul li{
+        
+        padding: 0px 10px;
+        list-style: none;
+        margin-right: 10px;
+        
+       
+        
+        
+    }
+    nav div ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+       
+       
+    }
+    ul.right{
+    float: right;
+    display: flex;
+    line-height: 2;
+    margin-right: 130px;
+    
+    }
+    ul.right li{
+        padding: 0px 5px;
+    }
+    ul.right li a{
+        font-size: 13px;
+    }
+     nav a:hover{
+        color: red
+    }
+    nav input{
+        position: relative;
+        right:  220px;
+        top: 40px;
+        background-color: lightgray;
+        border: 1px solid;
+        padding: 5px;
+    }
+    nav ul form img{
+        
+       
+       width: auto;
+       height: 30px;
+      position: relative;
+      top: 2px;
+    }
+    nav ul form i{
+        position: absolute;
+        top: 49px;
+        right: 230px;
+      
+    }
+    .fa-user{
+        right: 100px;
+        
+       
+        
+    }
+    .fa-heart{
+        right: 30px;
+    }
+    .fa-cart-shopping{
+        right: -46px;
+    }
+    section header img{
+        position: relative;
+        width: 100%;
+        border-bottom: 2px solid;
+    }
+    article {
+        width: 100%;
+        height: 2130px;
+        background-color: white;
+        position: relative;
+        top: -3.4px;
+    }
+ li.muagiayde a:hover{
+ opacity: 0.5;
+ }
+ 

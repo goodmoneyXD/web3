@@ -1,0 +1,399 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.header1{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 3;
+    position: relative;
+}
+header a:hover{
+    color: red;
+}
+.fa-chevron-down{
+    color: white;
+    position: relative;
+    top: 1px;
+    right: -5px;
+
+}
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+   
+}
+nav img{
+    height: 100px;
+    float: left;
+    position: absolute;
+    margin-left: 1px;
+}
+nav div ul{
+    float: left;
+    display: flex;
+    line-height: 6;
+    position: relative;
+    margin-left: 180px;
+}
+nav div ul li{
+    
+    padding: 0px 10px;
+    list-style: none;
+    margin-right: 10px;
+    
+   
+    
+    
+}
+nav div ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+   
+   
+}
+ul.right{
+float: right;
+display: flex;
+line-height: 2;
+margin-right: 130px;
+
+}
+ul.right li{
+    padding: 0px 5px;
+}
+ul.right li a{
+    font-size: 13px;
+}
+ nav a:hover{
+    color: red
+}
+nav input{
+    position: relative;
+    right:  220px;
+    top: 40px;
+    background-color: lightgray;
+    border: 1px solid;
+    padding: 5px;
+}
+nav ul form img{
+    
+   
+   width: auto;
+   height: 30px;
+  position: relative;
+  top: 2px;
+}
+nav ul form i{
+    position: absolute;
+    top: 49px;
+    right: 230px;
+  
+}
+.fa-user{
+    right: 100px;
+    
+   
+    
+}
+.fa-heart{
+    right: 30px;
+}
+.fa-cart-shopping{
+    right: -46px;
+}
+section header{
+    width: 100%;
+    height: 380px;
+    background-color: rgb(183, 30, 23);
+    position: relative;
+   font-size: 20px;
+   border-top: 2px solid black;
+   
+  
+
+}
+section header h1.head1{
+text-align: center top;
+margin-left: 80px;
+margin-top: 30px;
+color: white;
+
+}
+section header h3{
+    margin-left: 80px;
+    margin-top: 20px;
+    color: white;
+}
+section header p {
+   color: white;
+   text-align: left;
+  margin-left: 80px;
+  line-height: 2
+  ;
+  margin-top: 50px;
+  font-weight: bold;
+
+   
+}
+.Box1{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    border-radius:13px;
+    border: 2px solid black;
+}
+.p1{
+    color: black;
+    position: relative;
+    left: 55px;
+    top: -35px;
+    font-weight: bold;
+   
+}
+.p1:hover{
+    color: red;
+}
+header img{
+position: absolute;
+height: 380px;
+top: 0px;
+left: 685px;
+
+}
+
+  
+
+.head2{
+    position: absolute;
+    top:  20px;
+    color: white;
+    right: 265px;
+    font-size: 40px;
+    
+}
+.head3{
+    position: absolute;
+    top:  100px;
+    color: white;
+    right: 220px;
+ border: 3px solid;
+ padding-left: 5px;
+ padding-right: 5px;
+
+}
+.head4{
+    position: absolute;
+    color: white;   
+    padding-left: 5px;
+    padding-right: 5px;
+    top: 170px;
+    right: 220px;
+    border: 3px solid;
+
+}
+.head5{
+
+    position: absolute;
+    color: white;
+    border: 3px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    top: 240px;
+    right: 220px;
+
+}
+article{
+    width: 100%;
+    height: 1150px;
+    background-color: white;
+   
+}
+article div.div1{
+    width: 100%;
+    height: 500px;
+    background-color: white ;
+}
+article div.div2{
+    width: 100%;
+    height: 810px;
+    background-color:white;
+
+
+}
+article div.div1{
+position: relative;
+}
+article div.div1 img.shoe{
+    width: 830px;
+    position: absolute;
+    top: 200px;
+    left: 100px;;
+    
+}
+article div.div1 ul{
+ position: relative;
+    display: flex;
+    float: left;
+    line-height: 10;
+    left: 100px;
+    
+}
+article div.div1 li{
+    list-style: none;
+    margin-right: 70px;
+   
+    
+    
+}
+article div.div1 li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    justify-content: space-between;
+    border: 3px solid black;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+   
+}
+
+
+article div.div1 ul li.li1 a{
+    background-color: black;
+    color: white;
+}
+
+article div.div1 ul   :hover{
+    color: red;
+}
+article div.div1{
+    position: relative;
+    }
+article div.div1 img.people{
+    position: absolute;
+    right: 0;
+    height: 500px;
+    width: 900px;
+}
+article div.div1{
+    position: relative;
+}
+article ul.giatien {
+    position: absolute;
+
+   
+    
+    
+}
+ article div.div2 image{
+ 
+
+}
+article div.div2 div.headerA{
+    width: 100%;
+    height: 136px;
+    background-color: rgb(255, 247, 48);
+    position: absolute;
+}
+article div.div2 div.headerA p{
+
+    font-size:40px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 42px;
+}
+article div.div2 img.twitter{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+article {
+    position: relative;
+}
+article div.div2 div.headerB{
+   position: absolute;
+    width: 364px;
+    height: 83px;
+    background-color: black;
+    top: 530px;
+    
+    right: 70px;
+}
+article div.div2 div.headerB p{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;}
+
+
+article div.div2 i{
+   position: absolute;
+  top: 40px;
+  right: 30px;
+   
+    
+    
+    
+
+}
+article div.div2 div.headerB :hover{
+    color: red;
+}
+article div.div2 ul{
+    display: flex;
+ line-height: 30;
+ justify-content: space-evenly
+}
+article div.div2 ul li{
+    list-style: none;
+   
+    font-weight: bold;
+}
+article div.div2 ul :last-child{
+    position: relative;
+    right: 80px;
+}
+article div.div2 ul li:hover{
+    color: red;
+}
+
+footer{
+    margin-top:171px;
+    background-color: white;
+    width: 100%;
+    height: 800px;
+}
+footer div.footer1{
+    background-color: blue;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(245, 245, 229);
+}
+footer div.footer1 img{
+    width: 1500px;
+    height: 300px;
+}
+footer div.footer2 img{
+    margin-top: 40px;
+    margin-left: 500px;
+}
